@@ -75,46 +75,42 @@ const Description = styled.p`
 `;
 
 const BlobContainer = styled.div`
-  width: 20em;
-  height: 10em;
+  width: 24em;
+  height: 12em;
   position: absolute;
   right: -5em;
   top: -9em;
   z-index: -1;
-  transform: rotate(-30deg);
   img {
     width: 100%;
     height: auto;
     max-height: max-content;
   }
   @media (min-width: ${SCREENS.sm}) {
-    width: 40em;
+    width: 60em;
     max-height: 10em;
     right: -9em;
-    top: -16em;
-    transform: rotate(-25deg);
+    top: -16em
   }
   @media (min-width: ${SCREENS.lg}) {
     width: 50em;
     max-height: 30em;
     right: -9em;
     top: -15em;
-    transform: rotate(-13deg);
   }
   @media (min-width: ${SCREENS.xl}) {
     width: 70em;
     max-height: 30em;
     right: -15em;
     top: -25em;
-    transform: rotate(-20deg);
   }
 `;
 
 const StanaloneBike = styled.div`
 width: auto;
 height: 10em;
-right: -6em;
-top: -5em;
+right: 5em;
+top: 6em;
 position: absolute;
 img {
   width: auto;
@@ -124,7 +120,7 @@ img {
 @media (min-width: ${SCREENS.sm}) {
   height: 16em;
   right: -6em;
-  top: -6em;
+  top: -26em;
 }
 @media (min-width: ${SCREENS.lg}) {
   height: 25em;
@@ -133,8 +129,8 @@ img {
 }
 @media (min-width: ${SCREENS.xl}) {
   height: 30em;
-  right:20em;
-  top: 9em;
+  right:13em;
+  top: 16em;
 }
 `;
 
